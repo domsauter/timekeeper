@@ -1,0 +1,11 @@
+- inputField.jsx erstellt - Feld zur Eingabe der Mitarbeiter-ID hinzugefügt
+
+weiteres Vorgehen:
+- Funktion InputField erweitern
+    - nur gültige ID's zulassen (Abgleich mit Datenbank, Name übergeben)
+    - aktuelle Zeit mit dem ID-Scan übergeben
+    - zugeordnete Abteilung muss ebenfalls übergeben werden
+    - ausgeholfene Abteilung muss angegeben werden und dann ebenfalls übergeben  werden
+    --> nachher muss eine Datenstruktur übergeben werden die folgendes enthält:
+        - ID, (Name), gestempelte Zeit, Abteilung, ausgeholfene Abteilung
+        - später dann abgestempelte Zeit oder Schichtende
