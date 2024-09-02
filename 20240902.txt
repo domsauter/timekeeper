@@ -2,7 +2,7 @@
   log.txt geschrieben
 
 weiteres Vorgehen:
-    - alternative zu dem express-server?
+    - alternative zu dem express-server? bspw. über sqlite. 
     - ausgeholfene Abteilung muss angegeben werden und dann ebenfalls übergeben  werden
     --> nachher muss eine Datenstruktur übergeben werden die folgendes enthält:
         - ID, (Name), gestempelte Zeit, Abteilung, ausgeholfene Abteilung

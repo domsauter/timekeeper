@@ -1,0 +1,45 @@
+from flask import Flask, jsonify
+import pandas as pd
+import sqlite3
+import os
+from datetime import datetime, timedelta
+import json
+
+app = Flask(__name__)
+
+# Pfade zur Excel-Datei, zur SQLite-Datenbank und zur Steuerdatei
+excel_file_path = 'path_to_your_file/id.xlsx'
+sqlite_db_path = 'path_to_your_file/your_database.db'
+last_run_file = 'path_to_your_file/last_run.json'
+
+def load_last_run_date():
+    if os.path.exists(last_run_file):
+        with open(last_run_file, 'r') as f:
+            return datetime.fromisoformat(json.load(f)['last_run'])
+    return None
+
+def save_last_run_date(date):
+    with open(last_run_file, 'w') as f:
+        json.dump({'last_run': date.isoformat()}, f)
+
+@app.route('/')
+def index():
+    # Überprüfen, ob eine Woche seit dem letzten Lauf vergangen ist
+    last_run = load_last_run_date()
+    now = datetime.now()
+
+    if last_run is None or now - last_run >= timedelta(weeks=1):
+        # Excel-Daten importieren
+        conn = sqlite3.connect(sqlite_db_path)
+        df = pd.read_excel(excel_file_path)
+        df.to_sql('employees', conn, if_exists='replace', index=False)
+        conn.close()
+
+        # Datum des letzten Laufs aktualisieren
+        save_last_run_date(now)
+        return jsonify({"status": "success", "message": "Daten importiert und Zeitstempel aktualisiert!"})
+    else:
+        return jsonify({"status": "info", "message": "Daten wurden in dieser Woche bereits importiert."})
+
+if __name__ == '__main__':
+    app.run(port=3000)
