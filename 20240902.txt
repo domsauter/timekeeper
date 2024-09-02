@@ -1,0 +1,9 @@
+- server.cjs erstellt, stellt nach ID-Scan Verbindung zu id.xlsx und gleicht id ab. anschließend werden ID, Name, Abteilung, Datum und Uhrzeit in 
+  log.txt geschrieben
+
+weiteres Vorgehen:
+    - alternative zu dem express-server?
+    - ausgeholfene Abteilung muss angegeben werden und dann ebenfalls übergeben  werden
+    --> nachher muss eine Datenstruktur übergeben werden die folgendes enthält:
+        - ID, (Name), gestempelte Zeit, Abteilung, ausgeholfene Abteilung
+        - später dann abgestempelte Zeit oder Schichtende

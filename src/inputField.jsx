@@ -7,14 +7,26 @@ function InputField() {
         setInputValue(event.target.value); // Aktualisiert den Zustand, wenn sich der Eingabewert ändert
     };
 
-    const handleSaveToFile = () => {
-        const blob = new Blob([inputValue], { type: 'text/plain' }); // Erstellt ein Blob-Objekt mit dem eingegebenen Text
-        const url = window.URL.createObjectURL(blob); // Erstellt eine URL für das Blob-Objekt
-        const a = document.createElement('a'); // Erstellt ein unsichtbares <a>-Element
-        a.href = url;
-        a.download = 'textdatei.txt'; // Der Dateiname der heruntergeladenen Datei
-        a.click(); // Simuliert einen Klick auf den Download-Link
-        window.URL.revokeObjectURL(url); // Gibt die Blob-URL frei, um Speicher zu sparen
+    const handleScanID = async () => {
+        try {
+            const response = await fetch('http://localhost:3001/scan-id', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ id: inputValue }),
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                alert('ID gefunden und in die Log-Datei geschrieben.');
+            } else {
+                alert('ID nicht gefunden.');
+            }
+        } catch (error) {
+            console.error('Fehler beim Scannen der ID:', error);
+            alert('Es gab einen Fehler beim Verarbeiten der Anfrage.');
+        }
     };
 
     return (
@@ -23,9 +35,9 @@ function InputField() {
                 type="text" 
                 value={inputValue} 
                 onChange={handleInputChange} 
-                placeholder="Gib hier deinen Text ein" 
+                placeholder="Gib hier deine Mitarbeiter-ID ein" 
             />
-            <button onClick={handleSaveToFile}>ID-Scan</button> {/* Button, der den Text speichert */}
+            <button onClick={handleScanID}>ID-Scan</button> {/* Button, der die ID prüft */}
         </div>
     );
 }
