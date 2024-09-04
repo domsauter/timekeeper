@@ -1,9 +1,0 @@
-123456, Dominik Sauter, OP-KO, 2.9.2024, 20:14:33
-606060, Paula Schwarz, OP-KO, 2.9.2024, 20:15:55
-10101, Lara Peter, OP-KL, 2.9.2024, 20:16:10
-778899, Laura Weber, OP-KL, 2.9.2024, 20:16:26
-778899, Laura Weber, OP-KL, 2.9.2024, 20:18:57
-778899, Laura Weber, OP-KL, 2.9.2024, 20:19:17
-654321, Harry Potter, OP-KL, 2.9.2024, 20:19:53
-654321, Harry Potter, OP-KL, 2.9.2024, 20:19:56
-654321, Harry Potter, OP-KL, 2.9.2024, 20:20:09

@@ -1,0 +1,4 @@
+2024-09-04 20:48:13 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-09-04 20:53:05 - ID: 101010, Name: Lara Peter, Abteilung: OP-KL
+2024-09-04 21:00:13 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
+2024-09-04 21:00:19 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
