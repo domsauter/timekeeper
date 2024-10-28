@@ -74,6 +74,9 @@ user = os.getlogin()
 app = tk.Tk()
 app.title("Timekeeper")
 
+# Setze die Fenstergröße auf 400x300 Pixel
+app.geometry("400x300")
+
 label = tk.Label(app, text=f"Hallo {user}, bitte gib Deine Mitarbeiter-ID ein.")
 label.pack()
 
