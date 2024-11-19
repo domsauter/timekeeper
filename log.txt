@@ -4,3 +4,10 @@
 2024-09-04 21:00:19 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
 2024-10-28 19:41:02 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
 2024-10-28 19:43:19 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
+2024-11-19 22:08:19 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-11-19 22:21:59 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-11-19 22:58:14 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-11-19 23:08:37 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
+2024-11-19 23:12:31 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-11-19 23:12:32 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-11-19 23:15:43 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO

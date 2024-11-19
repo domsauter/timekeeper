@@ -1,0 +1,6 @@
+- Die Unterfunktionen in separate Dateien gespeichert: Get_User_Info.py, ID_Is_Correct.py und Enter_id.py
+- Die Messages beim Betätigen vom "submit_button" unter das Eingabefeld verschoben und zeitlich begrenzt.
+
+weiteres Vorgehen:
+- beim einloggen müssen alle möglichen Stationen als Buttons oder als Auswahloption vorgeschlagen werden
+- die aktuelle Station soll nicht manuell eingegeben werden, sondern soll automatisch ausgelesen werden
