@@ -1,0 +1,7 @@
+- Excel-liste um die Spalte Hauptstation ergänzt
+
+weiteres Vorgehen:
+- If-Anweisung, die unterscheidet, ob Benutzer eingeloggt oder nicht.
+- Daten müssen irgendwo zwischengespeichert werden.
+- beim einloggen müssen alle möglichen Stationen als Buttons oder als Auswahloption vorgeschlagen werden
+- die aktuelle Station soll nicht manuell eingegeben werden, sondern soll automatisch ausgelesen werden

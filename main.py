@@ -29,7 +29,11 @@ def submit_id(event=None):
 # Bind the Enter key to the submit_id function
 id_input.bind('<Return>', submit_id)
 
-submit_button = tk.Button(app, text="Bestätigen", command=submit_id)
+submit_button = tk.Button(app, text="Einloggen", command=submit_id)
 submit_button.pack(pady=10)
+
+#über if-anweisungen Einlogg/Auslogg Button anzeigen 
+print(f"input: {id_input}")
+#if id_input
 
 app.mainloop()
