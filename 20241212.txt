@@ -1,0 +1,9 @@
+- neue Datei stationen.py ergänzt
+    - Stationen werden dynamisch als Buttons erzeugt
+    - Hauptstationen werden automatisch als aktuelle Station gewertet, solange kein Button gedrückt wird
+    - wird der entsprechende Button betätigt wird die aktuelle Station aktualisiert und alles in die log.txt geschrieben
+
+weiteres Vorgehen:
+- Daten müssen irgendwo zwischengespeichert werden.
+- Daten aus den Originaldateien lesen
+- Daten in die Originaldatei schreiben

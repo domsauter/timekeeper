@@ -1,6 +1,6 @@
 from datetime import datetime
-from ID_Is_Correct import id_is_correct
-from Get_User_Info import get_user_info
+from id_is_correct import id_is_correct
+from get_user_info import get_user_info
 
 def enter_id(id_input, message_label, app):
     user_id = id_input.get().strip()

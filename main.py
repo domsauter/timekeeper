@@ -1,6 +1,6 @@
 import tkinter as tk
 import os
-from Enter_ID import enter_id
+from enter_id import enter_id
 
 user = os.getlogin()
 

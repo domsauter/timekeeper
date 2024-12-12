@@ -1,17 +1,5 @@
-2024-09-04 20:48:13 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-09-04 20:53:05 - ID: 101010, Name: Lara Peter, Abteilung: OP-KL
-2024-09-04 21:00:13 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
-2024-09-04 21:00:19 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-10-28 19:41:02 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-10-28 19:43:19 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
-2024-11-19 22:08:19 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-19 22:21:59 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-19 22:58:14 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-19 23:08:37 - ID: 654321, Name: Harry Potter, Abteilung: OP-KL
-2024-11-19 23:12:31 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-19 23:12:32 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-19 23:15:43 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-25 19:29:52 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-25 19:49:57 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-25 19:51:15 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
-2024-11-25 19:52:14 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO
+2024-12-12 22:06:09 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO, Aktuelle Station: Verpacken, Neue Station: Mittagspause
+2024-12-12 22:06:27 - ID: 101010, Name: Lara Peter, Abteilung: OP-KL, Aktuelle Station: Versenden, Neue Station: entspannen
+2024-12-12 22:07:12 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO, Aktuelle Station: Verpacken, Neue Station: Mittagspause
+2024-12-12 22:08:06 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO, Aktuelle Station: Verpacken, Neue Station: programmieren
+2024-12-12 22:09:18 - ID: 123456, Name: Dominik Sauter, Abteilung: OP-KO, Aktuelle Station: Verpacken, Neue Station: programmieren
